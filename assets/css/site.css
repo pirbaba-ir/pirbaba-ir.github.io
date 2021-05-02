@@ -1,0 +1,126 @@
+/*home*/
+.pirbaba-body {
+    background-color: #eeeeee;
+    background-image: url("/assets/images/bg-texture.png");
+    background-repeat: repeat;
+}
+
+.pirbaba-nav {
+    font-family: pirbaba-font, serif;
+    background-image: url("/assets/images/bg-texture.png");
+    background-repeat: repeat;
+}
+
+.pirbaba-home-card-first {
+    margin-top: 120px;
+}
+
+.pirbaba-home-card {
+
+}
+
+
+.pirbaba-home-card img {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    top: -30px;
+    left: -9px;
+}
+
+.pirbaba-home-card p {
+    padding: 25px 20px 25px 10px;
+    font-family: pirbaba-font, serif;
+    direction: rtl;
+    font-size: 1.4em;
+}
+
+@font-face {
+    font-family: pirbaba-font;
+    src: url('/assets/font/vazir.ttf')
+}
+
+.pirbaba-card-link {
+    text-decoration: none;
+}
+
+/*w3.css*/
+.w3-card-4 {
+    background-color: #eeeeee;
+}
+
+/*app*/
+.pirbaba-app-container {
+    margin-top: 90px;
+}
+
+.pirbaba-app-icon img {
+    position: relative;
+    height: 180px;
+    width: 180px;
+    top: -30px;
+}
+
+.pirbaba-app-summary {
+    margin-bottom: 25px;
+}
+
+.pirbaba-app-summary p {
+    font-family: pirbaba-font, serif;
+    direction: rtl;
+    font-size: 1.2em;
+}
+
+.pirbaba-app-download {
+    direction: rtl;
+    font-family: pirbaba-font, serif;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.pirbaba-app-download a {
+    padding-bottom: 10px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.pirbaba-app-feature img {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    top: -10px;
+    filter: invert(30%) sepia(16%) saturate(3890%) hue-rotate(135deg) brightness(93%) contrast(102%);
+}
+
+.pirbaba-app-feature h3 {
+    color: teal;
+    font-family: Vazir, serif;
+    font-weight: bold;
+}
+
+.pirbaba-app-feature p {
+    font-family: pirbaba-font, serif;
+    direction: rtl;
+    padding-bottom: 20px;
+    font-size: 1.2em;
+}
+
+/*404*/
+.pirbaba-page-404 {
+    margin-top: 90px;
+    direction: rtl;
+    margin-bottom: 50px;
+}
+
+.pirbaba-page-404 a, h2, h3, h4, h5 {
+    font-family: pirbaba-font, serif;
+}
+
+.pirbaba-page-404 a {
+    color: #7B1FA2;
+}
+
+.pirbaba-page-404 .w3-card-4 {
+    margin-top: 20px;
+    padding: 10px;
+}

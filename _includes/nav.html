@@ -1,0 +1,10 @@
+<div class="w3-top">
+    <div class="w3-bar w3-padding w3-teal pirbaba-nav">
+        {% for item in site.data.navigation %}
+        <a href="{{ item.link }}"
+           class="w3-bar-item w3-button w3-right w3-padding-8 pirbaba-nav">
+            {{ item.name }}
+        </a>
+        {% endfor %}
+    </div>
+</div>

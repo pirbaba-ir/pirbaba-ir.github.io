@@ -1,0 +1,6 @@
+- name: خانه
+  link: /
+  activeColor: white
+- name: آپارتمانی ها
+  link: /apartemaniha
+  activeColor: teal
